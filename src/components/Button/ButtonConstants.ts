@@ -16,6 +16,7 @@ export enum ButtonColor {
 
 export const OLD_BUTTON_SIZES = {
   sm: SIZES.SMALL,
+  md: SIZES.MEDIUM,
   lg: SIZES.LARGE
 } as const;
 
