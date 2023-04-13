@@ -128,7 +128,8 @@ $disabled-on-primary-color-opacity: 0.5;
       &.monday-style-button {
         &--color {
           &-primary {
-            @include theme-prop(background-color, primary-color);
+            background-color: blue;
+            // @include theme-prop(background-color, primary-color);
             &-active,
             &:hover,
             &:focus {
