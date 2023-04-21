@@ -15,6 +15,7 @@
     margin: 0;
   }
 
+
   &_text--compact {
     display: flex;
     align-items: center;
@@ -101,4 +102,9 @@
 
 .monday-style-attention-box-component__title-container__title {
   font-family: var(--title-font-family);
+}
+
+.monday-storybook-attention-box_inline-container .monday-style-avatar {
+  width: 36px;
+  height: 36px;
 }
