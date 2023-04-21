@@ -41,7 +41,7 @@ export const metaSettings = createStoryMetaSettings({
 Use this component if you need to stack avatars as a group.
 
 <Canvas>
-  <Story name="Overview">
+  <Story name="Overview" parameters={{ chromatic: { disableSnapshot: true } }}>
     <AvatarGroup size={Avatar.sizes.LARGE} max={3}>
       <Avatar type={Avatar.types.IMG} src={person1} ariaLabel="Hadas Fahri" />
       <Avatar type={Avatar.types.IMG} src={person2} ariaLabel="Sergey Roytman" />
