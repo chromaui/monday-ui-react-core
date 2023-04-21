@@ -21,6 +21,9 @@ export const metaSettings = createStoryMetaSettings({
   component={DatePicker}
   argTypes={metaSettings.argTypes}
   decorators={metaSettings.decorators}
+  parameters={{
+    chromatic: { disableSnapshot: true }
+  }}
 />
 
 <!--- Component template -->

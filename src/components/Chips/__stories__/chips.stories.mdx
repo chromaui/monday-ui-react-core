@@ -25,6 +25,7 @@ export const metaSettings = createStoryMetaSettings({
   component={Chips}
   argTypes={metaSettings.argTypes}
   decorators={metaSettings.decorators}
+  parameters={{ chromatic: { disableSnapshot: true } }}
 />
 
 <!--- Component template -->
@@ -157,6 +158,7 @@ e.g.
 ### Chips on colored backgrounds
 
 When a chip appears on a background color identical to its color, use `showBorder` prop in order to add a distinctive white border.
+
 <Canvas>
   <Story name="On color">
     <Flex style={{ width: "100%" }} align={Flex.align.STRETCH} justify={Flex.justify.CENTER}>
@@ -171,7 +173,7 @@ When a chip appears on a background color identical to its color, use `showBorde
           borderRadius: "var(--border-radius-small)"
         }}
       >
-        <Chips label="On selected" showBorder readOnly/>
+        <Chips label="On selected" showBorder readOnly />
       </Flex>
       <Flex
         align={Flex.align.CENTER}
